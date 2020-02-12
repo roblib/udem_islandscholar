@@ -74,6 +74,13 @@ $global-lineheight: 1.4;
 //===========
 //STFX Branding
 
+$udm-dark-blue: #004276;
+$udm-blue: #4780ff;
+$udm-grey-blue: #456894;
+$udm-gold: #fec703;
+$udm-grey: #adaeb0;
+$udm-brown: #6b361b;
+
 $stfx-blue: #00478D;
 $stfx-dark-blue: #003365;
 $stfx-gold: #bc9407;
@@ -81,7 +88,9 @@ $stfx-green: #817C00;
 $stfx-taupe: #AD9E75;
 $stfx-brown: #4B3900;
 //--
-$heading-color: $stfx-blue; 
+$heading-color: $udm-blue; 
+$logo-color-one:#fff ;
+$logo-color-two: $udm-gold;
 
 
 $white:white; 
@@ -105,7 +114,7 @@ $orange-lighter: #fdf0b6;
 $orange-lightest: #fdfad8;
 
 $foundation-palette: (
-  primary: $stfx-blue,
+  primary: $udm-dark-blue,
   secondary: #767676,
   success: $green,
   warning: $yellow,
@@ -923,7 +932,7 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: 0.5rem;
 //$topbar-background: $light-gray;
-$topbar-background: $stfx-dark-blue;
+$topbar-background: $udm-dark-blue;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
