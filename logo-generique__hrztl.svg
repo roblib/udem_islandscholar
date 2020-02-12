@@ -1,16 +1,5 @@
-<?php
-$menu = menu_navigation_links('main-menu');
-?>
-<header class="l-header" role="banner">
-    <div class="grid-container top-bar">
-        <div class="top-bar-left">
-            <div class="large-logo logo-wrapper">
-                <a class="site-logo" href="https://www.stfx.ca" rel="home" title="<?php print t('Home'); ?>">
-
-
-
-<!-- large logo -->
-<svg viewBox="0 0 363 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="90px" viewBox="0 0 363 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
     <title>logo/generique hrztl</title>
     <desc>Created with Sketch.</desc>
@@ -22,25 +11,3 @@ $menu = menu_navigation_links('main-menu');
         </g>
     </g>
 </svg>
-<!-- small logo -->
-</a>
-</div>
-
-        <h1><a href="/"><span class="logo-color-one">UDM </span>
-        <span class="logo-color-two">Scholar</span>
-        </a></h1>
-
-            <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu button-group menu'))); ?>
-        </div>
-        <div class="top-bar-right">
-            <?php if ($content): ?>
-            <div>
-                <?php print $content; ?>
-            </div>
-            <?php endif; ?>
-        <!-- <button class="mobile-menu__button button" data-toggle="offCanvas" type="button">Open Menu</button> -->
-<span class="hamburger mobile-menu__button" data-toggle="offCanvas"></span>
-        </div>
-    </div>
-</header>
-
