@@ -1,0 +1,14 @@
+//@format
+.tabs--primary {
+    border: none;
+    background: none;
+    list-style-type: none;
+    @include button-group(li);
+    margin: 0;
+    a {
+        @include button(false, $stfx-blue, auto, auto, hollow);
+        @extend .small;
+        font-size: 0.75rem;
+        @extend .button;
+    }
+}

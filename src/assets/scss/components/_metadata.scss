@@ -1,0 +1,35 @@
+//@format
+%blue-button {
+    //display: none;
+    @include button;
+    padding: 4px 4px 2px 4px;
+    border-radius: 4px;
+    line-height: 1;
+    margin: 0;
+    font-family: $myriad-bold-cond;
+}
+.metadata {
+    .fieldset-legend {
+        @extend %blue-button;
+    }
+    dl {
+        p {
+            padding: 0;
+            margin: 0;
+            line-height: 1.5;
+        }
+        dt {
+            max-width: 10rem;
+            text-align: right;
+            line-height: 1.5;
+            font-family: $myriad-bold-cond;
+        }
+        dt,
+        dd {
+            //border-bottom: 1px solid #ccc;
+        }
+        .toggler {
+            @extend %blue-button;
+        }
+    }
+}
