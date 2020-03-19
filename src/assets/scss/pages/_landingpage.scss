@@ -7,3 +7,16 @@
 
   font-family: $roboto-cond;
 }
+
+.l-region--above-footer {
+
+  .block__title {
+
+  }
+
+  .block__content ul a {
+    font-size: rem-calc(20);
+font-family: $roboto-cond;
+  }
+
+}
