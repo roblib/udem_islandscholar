@@ -62,7 +62,6 @@
     margin: auto;
 
     .site-title {
-        font-family: $pn-black;
     @include breakpoint(medium) {
         font-size: 4.7vw;
     }

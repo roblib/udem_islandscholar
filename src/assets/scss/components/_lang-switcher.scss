@@ -1,9 +1,11 @@
 div#block-locale-language-content {
   ul {
+    @include menu-base;
 
     display: flex;
   }
   a {
     @include button
+    font-family: $roboto-cond;
   color:#fff;}
 }

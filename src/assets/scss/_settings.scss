@@ -74,11 +74,11 @@ $global-lineheight: 1.4;
 //===========
 //STFX Branding
 
-$udm-dark-blue: #004276;
+$udm-dark-blue: #02488C;
 $udm-blue: #4780ff;
 $udm-grey-blue: #456894;
 $udm-gold: #fec703;
-$udm-gold: #dda128;
+$udm-gold: #E0A725;
 $udm-grey: #adaeb0;
 $udm-brown: #6b361b;
 
@@ -135,12 +135,8 @@ $logo-width-interior: 6rem;
 $logo-width-front: 10rem;
 
 
-$pn-thin: 'proxima_nova_ltthin';
-$pn-regular: 'Proxima Nova';
-$pn-semi-Bold: 'proxima_nova_ltsemibold';
-$pn-bold: 'proxima_nova_altbold';
-$pn-black: 'proxima_nova_altblack';
 //Myriad fonts============
+
 
 $myriad-reg: 'MyriadPro-Regular';
 $myriad-bold-cond-it: 'MyriadPro-BoldCondIt';
@@ -155,7 +151,9 @@ $myriad-cond: 'MyriadPro-Cond';
 
 //========================
 $sans-serif: 'PT Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $myriad-reg;
+$body-font-family: "Roboto", sans-serif;
+$roboto: "Roboto", sans-serif;
+$roboto-cond: "Roboto Condensed", sans-serif;
 
 
 
@@ -214,7 +212,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $myriad-semibold;
+$header-font-family: $body-font-family;
 //$header-font-weight: $global-weight-normal;
 $header-font-weight: 600;
 $header-font-style: normal;
