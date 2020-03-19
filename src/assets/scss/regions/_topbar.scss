@@ -35,6 +35,8 @@ header h1 {
     //color: $stfx-taupe;
     color: $logo-color-one;
     font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-family: $roboto-cond;
     //font-weight: bold;
     text-transform: none !important;
   }
@@ -42,7 +44,8 @@ header h1 {
     color: $logo-color-two;
     //color: $white;
     font-family: $myriad-cond;
-    font-weight: 400;
+    font-family: $roboto;
+    //font-weight: 400;
     text-transform: uppercase;
   }
 }

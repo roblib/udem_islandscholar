@@ -34,7 +34,7 @@ metadata dl {
         text-align: right;
     }
 }
-
+h1,
 h2,
 h3,
 h4,
@@ -49,7 +49,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
 }
 .content a {
     //border-bottom: 1px solid #00aeef;
@@ -77,11 +77,12 @@ form {
 }
 //lp-text
 .lp-blurb {
-    font-size: 2rem;
+    //font-size: 2rem;
     color: #333;
     &.subheader {
         text-transform: none;
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        font-family: $roboto-cond;
         color: #8a8a8a;
     }
 }
