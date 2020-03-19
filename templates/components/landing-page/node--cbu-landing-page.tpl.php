@@ -8,12 +8,12 @@ $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
             <?php print render($content['field_cbu_slideshow']); ?>
             <!-- slideshow -->
             <div class="showcase-top">
-                <h1 class="site-title logo-color-one">UDM <span class="logo-color-two">Scholar</span></h1>
+                <h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>
                 <?php print render($is_search['content']); ?>
             </div>
             <div class="showcase-bottom">
                 <h3 class="collection-menu__title">
-                    Browse Collections
+<?php print $title; ?>
                 </h3>
                 <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu align-center button-group menu'))); ?>
             </div>

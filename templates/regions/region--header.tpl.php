@@ -26,17 +26,15 @@ $menu = menu_navigation_links('main-menu');
 </a>
 </div>
 
-        <h1><a href="/"><span class="logo-color-one">UDM </span>
-        <span class="logo-color-two">Scholar</span>
+        <h1><a href="/"><span class="logo-color-one">Scriptori</span>
+        <span class="logo-color-two">UM</span>
         </a></h1>
 
             <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu button-group menu'))); ?>
         </div>
         <div class="top-bar-right">
             <?php if ($content): ?>
-            <div>
                 <?php print $content; ?>
-            </div>
             <?php endif; ?>
         <!-- <button class="mobile-menu__button button" data-toggle="offCanvas" type="button">Open Menu</button> -->
 <span class="hamburger mobile-menu__button" data-toggle="offCanvas"></span>
