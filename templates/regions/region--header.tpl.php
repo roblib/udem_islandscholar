@@ -26,17 +26,15 @@ $menu = menu_navigation_links('main-menu');
 </a>
 </div>
 
-        <h1><a href="/"><span class="logo-color-one">UDM </span>
-        <span class="logo-color-two">Scholar</span>
-        </a></h1>
+
+
+			<span class="logo"><a href="/"><img src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg" alt=""></a></span>
 
             <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu button-group menu'))); ?>
         </div>
         <div class="top-bar-right">
             <?php if ($content): ?>
-            <div>
                 <?php print $content; ?>
-            </div>
             <?php endif; ?>
         <!-- <button class="mobile-menu__button button" data-toggle="offCanvas" type="button">Open Menu</button> -->
 <span class="hamburger mobile-menu__button" data-toggle="offCanvas"></span>
