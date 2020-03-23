@@ -4,60 +4,23 @@
   background: $topbar-background;
 }
 
-header .top-bar {
-  position: relative;
-}
-header .logo img {
-  width: 200px;
-}
-header h1 {
-  a {
-    .cbu {
-      color: $udm-blue;
-    }
-    .scholar {
-      color: $yellow;
+//header .top-bar {
+//position: relative;
+//}
+header {
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 200px;
     }
   }
 }
-
-.logo-color {
-  &-one {
-    //color: $stfx-taupe;
-    color: $logo-color-one;
-    font-family: 'EB Garamond', serif;
-    font-weight: 400;
-    font-family: $roboto-cond;
-    //font-weight: bold;
-    text-transform: none !important;
-  }
-  &-two {
-    color: $logo-color-two;
-    //color: $white;
-    font-family: $myriad-cond;
-    font-family: $roboto-cond;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-}
-.showcase-top .logo-color-two {
-  font-size: rem-calc(50);
-}
-//front page logo
-
 .large-logo {
   display: block;
-  width: $logo-width-front;
+  width: rem-calc(240);
   margin-right: $global-margin;
-  background: #fff;
   padding: $global-padding/4 $global-padding/2;
-  border-radius: 4px;
-}
-//front page
-.front {
-  .top-bar h1 {
-    //margin-left: calc(#{$logo-width-front} + #{$global-margin});
-  }
 }
 //interior pages
 
@@ -70,10 +33,6 @@ header h1 {
   display: flex;
   align-items: center;
 }
-.top-bar h1 {
-  //margin-left: calc(#{$logo-width-interior} + #{$global-margin});
-  //@include show-for(large);
-}
 //frontpage
 .front {
   //dont show topbar main menu on lp
@@ -81,7 +40,6 @@ header h1 {
     display: none;
   }
 }
-
 .top-bar {
   .button-group {
     margin-bottom: 0;

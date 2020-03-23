@@ -1,83 +1,79 @@
+//@format
 //search
 
 .search-block-form {
-    .container-inline {
-
-
+  .container-inline {
     @extend .align-center;
     @extend .input-group;
-    }
-    .form-text {
+  }
+  .form-text {
     @extend .input-group-field;
     width: 20rem;
-
-    }
-    .form-actions {
-        
+  }
+  .form-actions {
     @extend .input-group-button;
-    }
-    .form-submit {
-        
+  }
+  .form-submit {
     @extend .button;
-    }
+  }
 }
 .main-menu {
-    a {
-        @extend .button;
-        margin:1px;
-    }
+  a {
+    @extend .button;
+    margin: 1px;
+  }
 }
 
-
-//slideshow 
+//slideshow
 .lp-slideshow__slide img {
-    width:100%;
+  width: 100%;
 }
 .showcase-top,
 .showcase-bottom {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center;
-
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
 }
 #Showcase {
-    position: relative;
+  position: relative;
 }
 
 .showcase-top {
-    color:white;
-    width:100%;
-    padding:0 $global-padding;
-    @include breakpoint(medium) {
-    padding:0;
+  color: white;
+  width: 100%;
+  padding: 0 $global-padding;
+  .logo {
+    margin-bottom: $global-margin;
+  }
+  @include breakpoint(medium) {
+    padding: 0;
 
     width: 30%;
-    }
-    margin: auto;
+  }
+  margin: auto;
 
-    .site-title {
+  .site-title {
     @include breakpoint(medium) {
-        font-size: 4.7vw;
+      font-size: 4.7vw;
     }
+  }
 
-    }
-
-        margin-top:$global-margin*4;
-        margin-bottom:$global-margin*4;
-        //font-size:rem-calc(60);
+  margin-top: $global-margin * 4;
+  margin-bottom: $global-margin * 4;
+  //font-size:rem-calc(60);
 }
 
 .showcase-bottom {
-    @include show-for(large);
-    color: white;
-    background: rgba(118, 118, 118, 0.7);
-    width: 100%;
-    padding: 20px 0;
-    .button-group {
-        margin-bottom:0;
-    }
-        margin-bottom:$global-margin*4;
+  @include show-for(large);
+  color: white;
+  background: rgba(118, 118, 118, 0.7);
+  width: 100%;
+  padding: 20px 0;
+  .button-group {
+    margin-bottom: 0;
+  }
+  margin-bottom: $global-margin * 4;
 }
 .yellow {
-    color:$yellow;
+  color: $yellow;
 }
