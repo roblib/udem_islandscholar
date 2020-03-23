@@ -90,7 +90,7 @@ $stfx-taupe: #AD9E75;
 $stfx-brown: #4B3900;
 //--
 $heading-color: $udm-blue; 
-$logo-color-one:#fff ;
+$logo-color-one:$udm-dark-blue;
 $logo-color-two: $udm-gold;
 
 
@@ -115,7 +115,7 @@ $orange-lighter: #fdf0b6;
 $orange-lightest: #fdfad8;
 
 $foundation-palette: (
-  primary: $udm-dark-blue,
+  primary: $udm-blue,
   secondary: #767676,
   success: $green,
   warning: $yellow,
@@ -931,7 +931,7 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: 0.5rem;
 //$topbar-background: $light-gray;
-$topbar-background: $udm-dark-blue;
+$topbar-background: #fff;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
