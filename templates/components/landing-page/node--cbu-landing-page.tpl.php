@@ -6,7 +6,8 @@ $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
 <div class="hero">
 
             <div class="showcase-top">
-                <h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>
+			<figure class="logo"><img src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg" alt=""></figure>
+                <!--<h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>-->
                 <?php print render($is_search['content']); ?>
             </div>
             <div class="showcase-bottom">

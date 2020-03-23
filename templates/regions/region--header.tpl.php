@@ -26,9 +26,9 @@ $menu = menu_navigation_links('main-menu');
 </a>
 </div>
 
-        <h1><a href="/"><span class="logo-color-one">Scriptori</span>
-        <span class="logo-color-two">UM</span>
-        </a></h1>
+
+
+			<span class="logo"><a href="/"><img src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg" alt=""></a></span>
 
             <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu button-group menu'))); ?>
         </div>
