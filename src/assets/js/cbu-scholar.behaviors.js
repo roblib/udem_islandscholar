@@ -74,7 +74,7 @@
     attach: function(context, settings) {
       //const imagePath = '/sites/all/themes/cbu_scholar/dist/assets/img/';
       const imagePath =
-        '/sites/cbufaces.cairnrepo.org/themes/cbu_scholar/dist/assets/img/';
+        '/sites/udmscholar.cairnrepo.org/themes/udem_islandscholar/dist/assets/img/';
       //const imagePath = '/img/';
       var menuItems = [
         {
@@ -103,7 +103,7 @@
     attach: function(context, settings) {
       //const imagePath = '/sites/all/themes/cbu_scholar/dist/assets/img/';
       var imagePath =
-        '/sites/cbufaces.cairnrepo.org/themes/cbu_scholar/dist/assets/img/';
+        '/sites/udmscholar.cairnrepo.org/themes/udem_islandscholar/dist/assets/img/';
       var plus = imagePath + 'plus-square-o.svg';
       var minus = imagePath + 'minus-square-o.svg';
       $('.plusminus .plus')
