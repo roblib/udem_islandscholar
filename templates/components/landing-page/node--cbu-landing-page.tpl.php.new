@@ -1,0 +1,150 @@
+<?php
+//dpm($content);
+$menu = menu_navigation_links('main-menu');
+$is_search = module_invoke('islandora_solr', 'block_view', 'simple');
+?>
+<div class="hero">
+  <div class="showcase-top">
+    <figure class="logo">
+      <img
+        src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg"
+        alt=""
+      />
+    </figure>
+    <!--<h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>-->
+    <?php print render($is_search['content']); ?>
+  </div>
+  <div class="showcase-bottom">
+    <h3 class="collection-menu__title">
+      <?php print $title; ?>
+    </h3>
+    <?php print theme('links__main-menu', array('links' =>
+    $menu, 'attributes' => array('class'=> 'main-menu align-center button-group
+    menu'))); ?>
+  </div>
+</div>
+
+<div class="grid-container">
+  <?php print $messages; ?>
+  <?php print render($content['body']); ?>
+  <div class="l-region l-region--above-footer">
+    <div
+      id="block-views-cbu-scholar-citations-block"
+      class="block block--views list-block contextual-links-region block--views-cbu-scholar-citations-block"
+    >
+      <h3 class="block__title">Recently Added Citations</h3>
+      <div class="block__content">
+        <div
+          class="view view-cbu-scholar-citations view-id-cbu_scholar_citations view-display-id-block view-dom-id-ac361d0ddefb09fbf42dd8c3814f2a19"
+        >
+          <div class="view-content">
+            <div class="list-block__list">
+              <ul class="list-block__list-items">
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2528"
+                      >Pressbooks: A case study</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2521"
+                      >Field Behavior of the Nudibranch Mollusc Tritonia
+                      diomedea</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2522"
+                      >Odours detected by rhinophores mediate orientation to
+                      flow in the nudibranch mollusc, Tritonia diomedea</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2523"
+                      >Adaptation of Underwater Video for Near-Substratum
+                      Current Measurement</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2524"
+                      >Patterns vs. Causes and Surveys vs. Experiments: Teaching
+                      Scientific Thinking</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="block-views-cbu-scholar-theses-block"
+      class="block block--views list-block contextual-links-region block--views-cbu-scholar-theses-block"
+    >
+      <h3 class="block__title">Recently Added Theses</h3>
+      <div class="block__content">
+        <div
+          class="view view-cbu-scholar-theses view-id-cbu_scholar_theses view-display-id-block view-dom-id-6771e8c3d20bb68a6387b35458ef5979"
+        >
+          <div class="view-content">
+            <div class="list-block__list">
+              <ul class="list-block__list-items">
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A2526"
+                      >Reflecting with/in/through Art: A Self-Study on the
+                      Identities Informing the Teaching Practices of a High
+                      School Art Teacher.</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A1960"
+                      >The Last Hero of Ulster: An Alternative to the Heroic
+                      Biography Tradition of Conall Cernach</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A1959"
+                      >A Case Study &amp; Analysis of the dindshenchas of
+                      Ailend</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A1958"
+                      >Aoir neo Eisg (Satire or Polemic): A Study of the Use of
+                      Satire by Local Bards in the Gaelic Communities of Cape
+                      Breton and Northeastern Nova Scotia</a
+                    >
+                  </div>
+                </li>
+                <li class="list-block--list-item">
+                  <div class="views-field views-field-dctitle">
+                    <a href="/islandora/object/stfxir%3A364"
+                      >Factors that influence performance on the Canadian
+                      National Council Licensure Examination for Registered
+                      Nurses (NCLEX-RN&reg;)</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
