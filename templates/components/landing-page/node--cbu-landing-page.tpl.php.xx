@@ -3,8 +3,10 @@
 $menu = menu_navigation_links('main-menu');
 $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
 ?>
-<div class="hero">
-
+    <div id="Showcase">
+        <div class="inside">
+            <?php print render($content['field_cbu_slideshow']); ?>
+            <!-- slideshow -->
             <div class="showcase-top">
                 <h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>
                 <?php print render($is_search['content']); ?>
@@ -15,10 +17,8 @@ $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
                 </h3>
                 <?php print theme('links__main-menu', array('links' => $menu, 'attributes' => array('class'=> 'main-menu align-center button-group menu'))); ?>
             </div>
-</div>
-
-
-
+        </div>
+    </div>
     <div class="grid-container">
 
         <?php print $messages; ?>
