@@ -135,7 +135,7 @@
     attach: function(context, settings) {
       //const imagePath = '/sites/all/themes/cbu_scholar/dist/assets/img/';
       const imagePath =
-        '/sites/cbufaces.cairnrepo.org/themes/cbu_scholar/dist/assets/img/';
+        'sites/udmscholar.cairnrepo.org/themes/udem_islandscholar/dist/assets/img/';
       //const imagePath = '/img/';
       var menuItems = [
         {
