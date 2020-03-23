@@ -7,19 +7,10 @@
 header .top-bar {
   position: relative;
 }
+header .logo img {
+  width: 200px;
+}
 header h1 {
-  margin: 0;
-  //display:none;
-  font-size: rem-calc(28);
-  margin-right: $global-margin;
-  line-height: 1.4;
-  display: flex;
-  align-items: center;
-  //font-family: $pn-thin;
-  //font-family: $pn-regular;
-  //font-family: $pn-semi-Bold;
-  //font-family: $pn-bold;
-  //font-family: $pn-black;
   a {
     .cbu {
       color: $udm-blue;
