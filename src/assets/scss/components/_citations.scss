@@ -2,39 +2,39 @@
 
 .citation,
 %citation {
-    &__container {
-        @include callout($blue-lighter);
-    }
-    &__text {
-        font-size: 1.2rem;
-    }
-    &__pdf-display {
-        border: 1px solid #ccc;
-    }
-    &__metadata {
-    }
-    &__metadata-label {
-        @extend h2;
-    }
+  &__container {
+    @include callout($blue-lighter);
+  }
+  &__text {
+    font-size: 1.2rem;
+  }
+  &__pdf-display {
+    border: 1px solid #ccc;
+  }
+  &__metadata {
+  }
+  &__metadata-label {
+    @extend h4;
+  }
 }
 
 //######################//
 // ~~There be Dragons~~ //
 //######################//
 .csl-bib-body {
-    @extend %citation__container;
+  @extend %citation__container;
 }
 .csl-entry {
-    @extend %citation__text;
+  @extend %citation__text;
 }
 #islandora-pdfjs iframe {
-    @extend %citation__pdf-display;
+  @extend %citation__pdf-display;
 }
 .ir_citationCModel > fieldset .fieldset-legend {
-    @extend %citation__metadata-label;
+  @extend %citation__metadata-label;
 }
 .ir_citationCModel table tr > td:first-child {
-    //font-weight:bold;
-    width: 120px;
-    color: #497b06;
+  //font-weight:bold;
+  width: 120px;
+  color: #497b06;
 }
