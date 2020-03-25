@@ -1,3 +1,9 @@
+//@format
+.l-region--pre-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 div#block-locale-language-content {
   ul {
     @include menu-base;
@@ -5,7 +11,17 @@ div#block-locale-language-content {
     display: flex;
   }
   a {
-    @include button
-    font-family: $roboto-cond;
-  color:#fff;}
+    //@include button font-family: $roboto-cond;
+    color: $black;
+    font-size: 0.9rem;
+    color: $black;
+    font-family: $roboto;
+    text-transform: none;
+    font-weight: 600;
+    &:hover,
+    &.active {
+      text-decoration: underline;
+      color: $udm-blue;
+    }
+  }
 }
