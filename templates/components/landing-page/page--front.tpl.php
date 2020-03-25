@@ -1,4 +1,5 @@
 <div class="l-page">
+    <?php print render($page['pre-header']); ?>
     <?php print render($page['header']); ?>
     <div class="l-main">
         <?php //print $messages; ?>

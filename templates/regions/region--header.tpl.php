@@ -54,11 +54,11 @@ $menu = menu_navigation_links('main-menu');
             alt=""/></a
       ></span>
 
-      <?php print theme('links__main-menu', array('links' =>
-      $menu, 'attributes' => array('class'=> 'main-menu button-group menu')));
-      ?>
     </div>
     <div class="top-bar-right">
+      <?php print theme('links__main-menu', array('links' =>
+      $menu, 'attributes' => array('class'=> 'main-menu menu')));
+      ?>
       <?php if ($content): ?>
       <?php print $content; ?>
       <?php endif; ?>

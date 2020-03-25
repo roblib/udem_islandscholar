@@ -3,6 +3,7 @@
 <?php else: ?>
     <div class="l-page">
 <?php endif; ?>
+    <?php print render($page['pre-header']); ?>
     <?php print render($page['header']); ?>
     <div class="l-main">
         <div class="content l-content" role="main">

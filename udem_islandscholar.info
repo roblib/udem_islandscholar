@@ -26,6 +26,7 @@ stylesheets[all][] = islandora.theme.css
 ; ========================================
 ; Regions
 ; ========================================
+regions[pre-header]         = Preheader
 regions[header]         = Header
 regions[highlighted]    = Highlighted
 regions[help]           = Help
