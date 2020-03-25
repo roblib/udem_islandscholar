@@ -95,6 +95,7 @@ $logo-color-two: $udm-gold;
 
 
 $white:white; 
+$off-white:#f5f5f5; 
 $blue: #0a78bf;
 $blue-dark: #195c96;
 $blue-light: #3ba2d6;
@@ -124,9 +125,9 @@ $foundation-palette: (
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #555;
+$black: #4A4A4A;
 $white: #fefefe;
-$body-background: $white;
+$body-background: $off-white;
 $body-font-color: $black;
 
 //logo width
@@ -166,7 +167,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 4;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;

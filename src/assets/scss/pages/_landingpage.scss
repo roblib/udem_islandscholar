@@ -1,22 +1,35 @@
 .lp-blurb {
-    //display:noe;
-    text-transform: none;
+  width: 100%;
+  margin: $global-margin;
+  background: $white;
+  padding: $global-padding;
+  border-radius: $global-radius;
+  h2 {
+  }
+  p {
+    margin-bottom: 0;
+  }
 
+  &.subheader {
+    padding-top: $global-padding;
+    padding-bottom: $global-padding;
+    margin-bottom: $global-margin;
+    margin-top: $global-margin;
+    color: $black;
+  }
+  //display:noe;
+  text-transform: none;
 }
 .main-menu {
-
   font-family: $roboto-cond;
 }
 
 .l-region--above-footer {
-
   .block__title {
-
   }
 
   .block__content ul a {
     font-size: rem-calc(20);
-font-family: $roboto-cond;
+    font-family: $roboto-cond;
   }
-
 }
