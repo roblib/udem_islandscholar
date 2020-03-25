@@ -44,6 +44,9 @@
 
 .search-facets,
 %search-facets {
+  background: $white;
+  padding: $global-padding;
+  border-radius: $global-radius;
   margin-right: $global-margin;
   margin-bottom: $global-margin;
   .is-dropdown-submenu {
