@@ -7,7 +7,7 @@ $menu = menu_navigation_links('main-menu');
       <div class="large-logo logo-wrapper">
         <a
           class="site-logo"
-          href="https://www.stfx.ca"
+          href="https://www.umoncton.ca/"
           rel="home"
           title="<?php print t('Home'); ?>"
         >
