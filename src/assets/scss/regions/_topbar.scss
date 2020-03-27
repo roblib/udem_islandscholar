@@ -67,7 +67,7 @@ $menu-breakpoint: large;
 }
 //mobile menu
 .mobile-menu__button {
-  @include hamburger(#ccc, $stfx-gold, 30px, 30px, 3px, 4);
+  //@include hamburger(#ccc, $stfx-gold, 30px, 30px, 3px, 4);
   transition: all 0.4s;
   float: right;
   margin: rem-calc(6) 0;
