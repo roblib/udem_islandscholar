@@ -45,8 +45,9 @@ header {
 .top-bar-left {
   @include xy-grid;
 }
+$menu-breakpoint: large;
 .top-bar .main-menu {
-  @include show-for(large);
+  @include show-for(xlarge);
   display: flex;
   align-items: center;
 }
@@ -70,7 +71,7 @@ header {
   transition: all 0.4s;
   float: right;
   margin: rem-calc(6) 0;
-  @include breakpoint(large) {
+  @include breakpoint(xlarge) {
     display: none;
   }
 }

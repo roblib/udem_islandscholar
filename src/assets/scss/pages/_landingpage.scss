@@ -1,8 +1,9 @@
 .lp-blurb {
-  width: 100%;
-  margin: $global-margin;
+  //width: 100%;
+  //margin: $global-margin;
   background: $white;
   padding: $global-padding;
+  text-align: center;
   border-radius: $global-radius;
   h2 {
   }
@@ -24,12 +25,3 @@
   font-family: $roboto-cond;
 }
 
-.l-region--above-footer {
-  .block__title {
-  }
-
-  .block__content ul a {
-    font-size: rem-calc(20);
-    font-family: $roboto-cond;
-  }
-}
