@@ -1,6 +1,6 @@
 //@format
 .user-menu {
-  @include show-for(large);
+  @include show-for(xlarge);
   .menu a {
     //@extend .button;
     margin: 0.5px;
