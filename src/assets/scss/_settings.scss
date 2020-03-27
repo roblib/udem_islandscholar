@@ -93,6 +93,7 @@ $heading-color: $udm-blue;
 $logo-color-one:$udm-dark-blue;
 $logo-color-two: $udm-gold;
 
+$block-border: 12px solid $udm-blue;
 
 $white:white; 
 $off-white:#f5f5f5; 
@@ -231,13 +232,21 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48.83),
-    'h2': ('font-size': 39.06),
-    'h3': ('font-size': 31.25),
-    'h4': ('font-size': 25),
+    'h1': ('font-size': 32),
+    'h2': ('font-size': 28),
+    'h3': ('font-size': 25),
+    'h4': ('font-size': 20),
     'h5': ('font-size': 20),
     'h6': ('font-size': 20),
   ),
+  //medium: (
+    //'h1': ('font-size': 48.83),
+    //'h2': ('font-size': 39.06),
+    //'h3': ('font-size': 31.25),
+    //'h4': ('font-size': 25),
+    //'h5': ('font-size': 20),
+    //'h6': ('font-size': 20),
+  //),
 );
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;

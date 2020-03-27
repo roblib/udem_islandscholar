@@ -5,6 +5,7 @@
   padding: $global-padding;
   margin-bottom: $global-margin;
   border-radius: $global-radius;
+  border-left: $block-border;
   &__title {
     padding-bottom: $global-margin/2;
     border-bottom: 1px solid $medium-gray;

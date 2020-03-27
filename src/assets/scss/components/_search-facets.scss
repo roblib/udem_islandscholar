@@ -47,6 +47,7 @@
   background: $white;
   padding: $global-padding;
   border-radius: $global-radius;
+  border-left: $block-border;
   margin-right: $global-margin;
   margin-bottom: $global-margin;
   .is-dropdown-submenu {
@@ -85,9 +86,12 @@
     //padding: $global-padding/2 0;
   }
   &__facet-title {
-    /*color:blue;*/
-    /*font-family:$pn-semi-Bold;*/
-    font-weight: 100;
+    font-size: 22px;
+    text-transform: none;
+    font-family: $roboto-cond;
+    font-weight: 600;
+    color: #333;
+    font-style: italic;
   }
   &__filter-button {
     @extend .small;
