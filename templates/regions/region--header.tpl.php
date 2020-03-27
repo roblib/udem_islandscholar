@@ -66,6 +66,9 @@ $menu = menu_navigation_links('main-menu');
       <span
         class="hamburger mobile-menu__button"
         data-toggle="offCanvas"
+          ><img
+            src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/menu_tablet.svg"
+            alt=""/>
       ></span>
     </div>
   </div>
