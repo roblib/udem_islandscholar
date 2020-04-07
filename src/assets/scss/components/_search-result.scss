@@ -15,6 +15,7 @@
     }
     dt {
         width: 20%;
+        text-align: right;
     }
     margin-bottom:$global-margin*3;
     background: $white;
@@ -25,6 +26,27 @@
     background: $white;
     padding: $global-padding;
 
+    dl {
+        border-top: 4px solid $light-gray;
+    }
+    dd, dt {
+        //display: inline-block;
+        //padding-top:$global-padding/3;
+        //padding-bottom:$global-padding/3;
+        //border-bottom: 1px solid $light-gray;
+        padding-bottom: 0;
+        line-height: 30px;
+    }
+    //dd {
+        //display: inline-block;
+        //width: 79%;
+    //}
+    dt {
+        //width: 20%;
+        text-align: right;
+    }
+    margin-bottom:$global-margin*3;
+    background: $white;
 }
 
 

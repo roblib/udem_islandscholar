@@ -10,7 +10,7 @@
 header {
   .udm-logo {
     img {
-      width: 200px;
+      width: rem-calc(220);
     }
   }
 }
@@ -35,7 +35,7 @@ header {
   display: flex;
   align-items: center;
   img {
-    width: rem-calc(150);
+    width: rem-calc(180);
     @include breakpoint(medium) {
       //width: rem-calc(240);
     }
