@@ -55,6 +55,7 @@ header {
     &.active {
       text-decoration: underline;
       color: $udm-blue;
+      background: none;
     }
   }
 }
