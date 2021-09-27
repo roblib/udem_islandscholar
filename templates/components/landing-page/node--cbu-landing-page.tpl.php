@@ -13,6 +13,7 @@ $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
     </figure>
     <!--<h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>-->
     <?php print render($is_search['content']); ?>
+<a href="/advanced-search">advanced search</a>
   </div>
   <div class="showcase-bottom">
     <h3 class="collection-menu__title">
