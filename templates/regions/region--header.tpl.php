@@ -14,19 +14,19 @@ $menu = menu_navigation_links('main-menu');
           rel="home"
           title="<?php print t('Home'); ?>"
         >
-    <img src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/udm-logo.svg" alt=""/>
+    <img src="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/udm-logo.svg" alt=""/>
         </a>
       </div>
 
           <!-- small logo -->
-      <div class="udm-logo mobile logo-wrapper">
+      <div class="udm-logo--mobile logo-wrapper">
         <a
           class="site-logo"
           href="https://www.umoncton.ca/"
           rel="home"
           title="<?php print t('Home'); ?>"
         >
-            <img src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/udm-logo--mobile.svg" alt=""/>
+            <img src="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/udm-logo--mobile.svg" alt=""/>
         </a>
       </div>
 
@@ -34,7 +34,7 @@ $menu = menu_navigation_links('main-menu');
       <span class="scriptorium-logo"
         ><a href="/"
           ><img
-            src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg"
+            src="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/scriptorium_logo.svg"
             alt=""/></a
       ></span>
 
@@ -47,13 +47,9 @@ $menu = menu_navigation_links('main-menu');
       <?php print $content; ?>
       <?php endif; ?>
       <!-- <button class="mobile-menu__button button" data-toggle="offCanvas" type="button">Open Menu</button> -->
-      <span
-        class="hamburger mobile-menu__button"
-        data-toggle="offCanvas"
-          ><img
-            src="<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/menu_tablet.svg"
-            alt=""/>
-      ></span>
+      <span class="hamburger mobile-menu__button" data-toggle="offCanvas">
+        <img src="/<?php print drupal_get_path('theme',$GLOBALS['theme']) ?>/dist/assets/img/menu_tablet.svg" alt=""/>
+      </span>
     </div>
   </div>
 </header>
