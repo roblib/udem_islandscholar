@@ -14,6 +14,7 @@ stylesheets[all][] = dist/assets/css/app.css
 ; Scripts
 ; ========================================
 scripts[] = dist/assets/js/app.js
+scripts[] = test.js
 
 ; ========================================
 ; FOAD
