@@ -2,6 +2,8 @@
 //dpm($content);
 $menu = menu_navigation_links('main-menu');
 $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
+$link = module_invoke('menu_block', 'block_view', '7');
+
 ?>
 <div class="hero">
   <div class="showcase-top">
@@ -13,7 +15,11 @@ $is_search = module_invoke('islandora_solr', 'block_view', 'simple');
     </figure>
     <!--<h1 class="site-title logo-color-one">Scriptori<span class="logo-color-two">UM</span></h1>-->
     <?php print render($is_search['content']); ?>
-<a href="/advanced-search">advanced search</a>
+<!--
+<a class="advanced_search_link"	href="/fr/advanced-search">Advanced search</a>
+-->
+<?php print render($link['content']); ?>
+
   </div>
   <div class="showcase-bottom">
     <h3 class="collection-menu__title">
